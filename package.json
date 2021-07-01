@@ -16,14 +16,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/XuMinhui"
+    "url": "https://github.com/XuMinhui/wei-caculate"
   },
   "author": "Homie_Xu",
   "license": "ISC",
   "dependencies": {
     "bignumber.js": "^9.0.1"
   },
-  "homepage": "https://blog.yitian2019.com",
+  "homepage": "https://github.com/XuMinhui/wei-caculate",
   "devDependencies": {
     "@types/jest": "^26.0.23",
     "jest": "^27.0.6",

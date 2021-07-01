@@ -5,3 +5,8 @@ export const valueToWei: WeiProps<string> = (arg, decimals, fixed = 4) => {
   const _arg = new BigNumber(arg)
   return _arg.shiftedBy(decimals).dp(fixed, 1).toString()
 }
+
+export const weiToValue: WeiProps<string> = (arg, decimals, fixed = 4) => {
+  const _arg = new BigNumber(arg)
+  return _arg.shiftedBy(-decimals).dp(fixed, 1).toString()
+}
