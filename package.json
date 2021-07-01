@@ -1,0 +1,36 @@
+{
+  "name": "wei-caculate",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest --config jestconfig.json",
+    "build": "tsc",
+    "build-test": "tsc && node ./lib/index.js"
+  },
+  "keywords": [
+    "wei",
+    "web3",
+    "wei-caculate",
+    "bignumber"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/XuMinhui"
+  },
+  "author": "Homie_Xu",
+  "license": "ISC",
+  "dependencies": {
+    "bignumber.js": "^9.0.1"
+  },
+  "homepage": "https://blog.yitian2019.com",
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.3",
+    "typescript": "^4.3.5"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
