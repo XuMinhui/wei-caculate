@@ -1,8 +1,8 @@
 {
   "name": "wei-caculate",
-  "version": "1.0.0",
-  "description": "test",
-  "main": "index.ts",
+  "version": "1.0.3",
+  "description": "A bignumber.js secondary wrapper based wei calculation tool library to replace precision units and other large number calculations not covered in web3",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "jest --config jestconfig.json",
     "build": "tsc",
