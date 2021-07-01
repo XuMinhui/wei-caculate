@@ -1,6 +1,6 @@
 {
   "name": "wei-caculate",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "A bignumber.js secondary wrapper based wei calculation tool library to replace precision units and other large number calculations not covered in web3",
   "main": "./lib/index.js",
   "scripts": {
